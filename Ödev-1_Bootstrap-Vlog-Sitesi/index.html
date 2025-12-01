@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toprak Razgatlıoğlu - MotoGP Yolculuğu</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            height: 100%;
+        }
+        .card-img-top {
+            height: 250px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Koyu Renkli Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Hakan Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="post.html">Blog Gönderisi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="bg-primary text-white py-5">
+        <div class="container text-center">
+            <h1 class="display-4">Toprak Razgatlıoğlu - MotoGP Yolculuğu</h1>
+            <p class="lead">Dünya Superbike Şampiyonu'nun MotoGP macerasını takip edin</p>
+        </div>
+    </div>
+
+    <!-- Ana İçerik -->
+    <div class="container my-5">
+        <h2 class="text-center mb-5">Son Gelişmeler</h2>
+
+        <!-- Grid Sistem ile Card Yapısı -->
+        <div class="row g-4">
+            
+            <!-- Card 1 -->
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <img src="assets/toprak2.webp" class="card-img-top" alt="toprak motorda">
+                    <div class="card-body">
+                        <h5 class="card-title">El Turco MotoGP Testinde Pistin Tozunu Attırdı</h5>
+                        <p class="card-text">Dünya Superbike Şampiyonu milli gururumuz Toprak Razgatlıoğlu, Yamaha'nın M1 MotoGP motosikletiyle İspanya'nın Jerez pistinde gerçekleştirdiği testlerde tüm dikkatleri üzerine çekti.</p>
+                        <a href="post.html" class="btn btn-primary">Devamını Oku &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <img src="assets/toprak1.webp" class="card-img-top" alt="toprak boydan">
+                    <div class="card-body">
+                        <h5 class="card-title">WSBK'dan MotoGP'ye Geçiş Mümkün Mü?</h5>
+                        <p class="card-text">Padoktaki söylentilere göre Toprak'ın stili MotoGP makineleri için oldukça agresif ancak bir o kadar da etkileyici. Peki takımların patronları bu konuda ne düşünüyor?</p>
+                        <a href="post.html" class="btn btn-primary">Devamını Oku &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p class="mb-0">Telif Hakkı &copy; 2025 Hakan Blog. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
